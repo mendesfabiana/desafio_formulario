@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Cadastro de clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="imagens/logo4.png" width="200px" height="70px" alt="logo americanas"></a>
+        </div>
+    </header>
+    
+    <section>
+        <div class="box1">
+            <div>
+                <h2>criar seu cadastro</h2>
+                <p>veja seus pedidos de forma rápida, compre mais rápido e tenha uma experiência personalizada :)</p>
+                <span>*</span>
+                <label>campos obrigatórios</label>
+            </div>
+        </div>
+    </section>
+            
+    <section class="formulario">
+        <form action="#" method="post">
+            <div class="nome">
+                <div>
+                    <span>*</span>
+                    <label>nome completo</label><br>
+                    <input type="text" name="nome" id="nome">
+                </div>
+            </div>
+
+            <div class="genero">
+                <div>
+                    <span>*</span>
+                    <label>gênero</label><br>
+                    <p>pra gente te conhecer um pouquinho melhor :)</p><br>
+                    <input type="radio" name="f" id="genero"> feminino
+                    <input type="radio" name="m" id="genero"> masculino
+                    <input type="radio" name="ni" id="genero"> não informar
+                </div>
+            </div>
+
+            <div class="nascimento">
+                <div>
+                    <span>*</span>
+                    <label>data de nascimento</label><br>
+                    <p>necessário pra identificar a maioridade, no formato DD/MM/AAAA</p><br>
+                    <input type="tel" name="dt-nasc" id="#" required mask="99/99/9999" placeholder=" __/__/____">
+                </div>
+            </div>
+
+            <div class="cpf">
+                <div>
+                    <span>*</span>
+                    <label>CPF</label><br>
+                    <p>necessário pra emissão de Nota Fiscal</p><br>
+                    <input type="tel" name="cpf" id="#" required mask="999.999.999-99" placeholder="___/___/___-__"><br>
+                    <label><a href="#">é pessoa jurídica? conheça a americanas empresas</a></label>
+                </div>
+            </div>
+
+            <div class="telefone">
+                <div>
+                    <span>*</span>
+                    <label>telefone</label><br>
+                    <p>caso a gente precise entrar em contato sobre seus pedidos</p><br>
+                    <input type="tel" name="telefone" id="#" required mask="99 9999-9999" placeholder="(__) ____-____"><br>
+                </div>
+            </div>
+
+            <div class="notificacoes">    
+                <div>
+                    <input type="checkbox" name="notitificacoes" id="#"> receber notificações por whatsapp
+                </div>
+            </div>    
+            
+            <div class="email">
+                <div>
+                    <span>*</span>
+                    <label>e-mail</label><br>
+                    <input type="email" name="email" id="#"><br>
+                </div>
+            </div>
+
+            <div class="emails">
+                <div>
+                    <input type="checkbox" name="emailsprom" id="#" checked> receber e-mails promocionais
+                </div>
+            </div>
+
+            <div class="senha">
+                <div>
+                    <span>*</span>
+                    <label>senha</label><br>
+                    <p>precisa ter entre 6 a 20 caracteres</p><br>
+                    <input type="text" name="senha" id="#">
+                </div>
+            </div>
+
+            <div class="intensidade">
+                <div>
+                    <svg width="210" height="4">
+                        <rect width="210" height="4" style="fill:rgb(214, 213, 213); stroke-width: 1; stroke: rgb(204, 204, 204)"/>
+                    </svg> fraca
+                </div>
+            </div>
+
+            <div class="compartilhar">
+                <div>
+                    <input type="checkbox" name="dados" checked> compartilhar meus dados com parceiros para ter conteúdos personalizados, veja <a href="#">como funciona</a>.
+                </div>
+            </div>
+
+            <div class="submit">
+                <div>
+                    <input type="submit" value=" criar seu cadastro ">
+                </div>
+            </div>
+        </form>
+    </section>
+        
+    <section>
+        <div class="final">
+            <div>
+                <p class="p1">Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa <a href="#"><strong>Política de Privacidade</strong></a></p>
+            </div>
+
+            <div>
+                <p class="p2">já tem cadastro? <a href="#"><strong>entrar</strong></a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

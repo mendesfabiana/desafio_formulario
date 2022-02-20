@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(104, 104, 104);
+}
+
+header {
+    background-color: #ff0030;
+    width: 100%;
+    height: 85px;
+}
+
+.logo {
+    padding-top: 5px;
+    padding-left: 85px;
+}
+
+span {
+    font-size: 1em;
+    color: #ff0030;
+}
+
+.box1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2.3em;
+    color: #6d6d6d;
+    margin-top: 83px;
+    margin-bottom: 20px;
+}
+
+.box1 > div > p {
+    font-size: 1.1em;
+    padding-bottom: 13px;
+    color: #6d6d6d;
+}
+
+.box1 > div > label {
+    font-size: .8em;
+}
+
+.formulario {
+   margin-left: 460px;
+   margin-right: 460px;
+} 
+
+.nome > div> span {
+    line-height: 30px;
+}
+
+.nome > div > input {
+    color: #a5a5a571;
+    width: 400px;
+    height: 16px;
+    border-radius: 7px;
+    padding: 15px 0px 15px 7px;
+    margin-bottom: 23px;
+    border-width: 1px;
+}
+
+.genero > div> span {
+    line-height: 30px;
+}
+
+.genero > div > input {
+    border-color: #a5a5a5;
+    margin-bottom: 25px;
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    font-size: .9em;
+    color: #a5a5a5;
+}
+
+.nascimento > div> span {
+    line-height: 30px;
+}
+
+.nascimento > div > input {
+    border-color: #a5a5a571;
+    width: 105px;
+    height: 16px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 25px;
+    border-width: 1px;
+}
+
+.cpf > div> span {
+    line-height: 30px;
+}
+
+.cpf > div > input {
+    border-color: #a5a5a571;
+    width: 140px;
+    height: 16px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 25px;
+    border-width: 1px;
+}
+
+.cpf > div {
+    margin-bottom: 20px;
+}
+.telefone > div> span {
+    line-height: 30px;
+}
+
+.telefone > div > input {
+    border-color: #a5a5a571;
+    width: 140px;
+    height: 16px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 25px;
+    border-width: 1px;
+}
+
+.notificacoes > div {
+    margin-bottom: 35px;
+}
+
+.email > div> span {
+    line-height: 30px;
+}
+
+.email > div > input {
+    border-color: #a5a5a571;
+    width: 400px;
+    height: 16px;
+    border-radius: 7px;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 25px;
+    border-width: 1px;
+}
+
+.emails > div > input {
+    margin-bottom: 35px;
+}
+
+input:checked {
+    background-color: red;
+    width: 18px;
+    height: 18px;
+}
+
+.senha > div> span {
+    line-height: 30px;
+}
+
+.senha > div > input {
+    border-color: #a5a5a571;
+    width: 250px;
+    height: 16px;
+    border-radius: 7px;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 35px;
+    border-width: 1px;
+}
+
+.intensidade > div {
+    margin-bottom: 25px;
+}
+
+.compartilhar > div {
+    margin-bottom: 35px;
+}
+
+a {
+    color:#6d6d6d;
+}
+
+.submit > div > input {
+    background-color: #ff0030;
+    border: none;
+    width: 240px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 1em;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+
+.submit > div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+
+.final {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 55px;
+} 
+
+.p1 {
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.p2 {
+    color: #555555;
+} 
