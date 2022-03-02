@@ -158,9 +158,9 @@ p {
 }
 
 input:checked {
-    background-color: red;
     width: 18px;
     height: 18px;
+    accent-color: red;
 }
 
 .senha > div> span {
